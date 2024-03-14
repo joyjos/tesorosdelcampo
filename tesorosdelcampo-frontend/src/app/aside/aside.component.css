@@ -1,13 +1,49 @@
 @font-face {
-    font-family: 'Farmer';
-    src: url('../../fonts/TheFarmerTexturedVintage.woff') format('woff');
-    font-style: normal;
-    font-weight: normal;
-  }
-  aside {
-    background-color: var(--brown);
-    color: var(--cream);
-  }
+  font-family: "Farmer";
+  src: url("../../fonts/TheFarmerTexturedVintage.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--brown);
+  color: var(--cream);
+  width: 20vw;
+  height: 100vh;
+  padding: 2vw;
+  float: right;
+}
+
+aside .articles-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+img {
+  width: 15vw;
+}
+
 h1 {
-    font-family: 'Farmer';
+  font-family: "Farmer";
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+button {
+    font-size: 1.2rem;
+    background-color: var(--green);
+    color: var(--black);
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin: 2rem auto;
 }
