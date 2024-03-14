@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Farmer';
+    src: url('../../fonts/TheFarmerTexturedVintage.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+  }
+  aside {
+    background-color: var(--brown);
+    color: var(--cream);
+  }
+h1 {
+    font-family: 'Farmer';
+}
