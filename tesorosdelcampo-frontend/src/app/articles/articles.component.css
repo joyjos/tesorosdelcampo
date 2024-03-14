@@ -1,3 +1,49 @@
-p {
-    font-size: 4rem;
+main {
+    background-color: var(--cream);
+    min-height: 100vh;
+    width: 80vw;
+    padding: 5rem 0;
 }
+.container {
+    background-color: var(--white);
+    width: 60vw;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--green);
+}
+
+hr {
+    margin: 3rem;
+    background-color: var(--green);
+    height: 0.2rem;
+    border: none;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.article p {
+    width: 30vw;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: var(--black)
+}
+
+.article img {
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
